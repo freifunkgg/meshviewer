@@ -9,15 +9,13 @@ Standalone: https://gg.indie-freifunk.net/map/#!/de/map
 Einfach das hier ausführen:
 
 ```
-docker run --name meshviewer-server \
+docker run --name meshviewer-server-gg \
          --detach \
-         --rm \
+         --restart always\
          -p 8080:80 \
-         --env MeshviewerRepo="https://github.com/FreifunkMD/Meshviewer --branch ffmd-Babel+Batman" \
+         --env MeshviewerRepo="https://github.com/freifunkgg/meshviewer" \
          --env LoopHookCMD="curl --create-dirs \
-                            -o /var/www/html/data/batman/meshviewer.json https://yanic.batman15.ffffm.net/meshviewer.json \
-                            -o /var/www/html/data/babel/meshviewer.json https://regensburg.freifunk.net/data/meshviewer.json; \
-                            chmod o=x /var/www/html/data/babel /var/www/html/data/batman" \
+                            -o /var/www/html/data/meshviewer.json https://map.freifunk-kitzingen.de/data/meshviewer.json" \
          ffmd/meshviewer-server:latest
 ```
 Danach kann eine eigene Groß-Gerauer Map auf dem eigenen Server (oder sogar PC) über http://Servername:8080 aufgerufen (http://localhost:8080) werden. 
