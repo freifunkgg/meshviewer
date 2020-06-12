@@ -1,6 +1,6 @@
 # Funktion dieses Projektes
 Groß-Gerauer Freifunkknoten werden eigentlich auf der FFKT-Map gelistet.
-Dieser Meshviewer-Fork nutzt die Kitzinger `meshviewer.json` und selektiert anhand der enthaltenen Doamininformationen die Groß-Gerauer Knoten. Nur diese werden dann angezeigt. 
+Dieser Meshviewer-Fork nutzt die Kitzinger `meshviewer.json` und selektiert anhand der enthaltenen Domaininformationen die Groß-Gerauer Knoten. Nur diese werden dann angezeigt. 
 
 ### Demo
 Standalone: https://gg.indie-freifunk.net/map/#!/de/map
