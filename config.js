@@ -43,8 +43,9 @@ module.exports = function () {
 //    ],
     // Array of data provider are supported
     'dataPath': [
-//    "https://map.freifunk-kitzingen.de/data/"
-    '/data/',
+    "https://gg.indie-freifunk.net/data/"
+//  "https://map.freifunk-kitzingen.de/data/"
+//  '/data/',
     ],
     'siteName': 'Freifunk Groß-Gerau',
     "maxAge": 21,
