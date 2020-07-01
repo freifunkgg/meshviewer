@@ -14,7 +14,7 @@ docker run --name meshviewer-server-gg \
          --restart always\
          -p 8080:80 \
          --env MeshviewerRepo="https://github.com/freifunkgg/meshviewer" \
-         --env LoopHookCMD="curl --create-dirs \
+         --env LoopHookCMD="curl --create-dirs --insecure\
                             -o /var/www/html/data/meshviewer.json https://map.freifunk-kitzingen.de/data/meshviewer.json" \
          ffmd/meshviewer-server:latest
 ```
