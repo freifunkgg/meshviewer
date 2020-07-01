@@ -23,7 +23,7 @@ Danach kann eine eigene Groß-Gerauer Map auf dem eigenen Server (oder sogar PC)
 Das ganze basiert auf dem generischer Dockerfile "All in One Meshviewer-Server" von den Magdeburger Freifunkern:
 https://github.com/FreifunkMD/meshviewer-server-docker
 
-## Dokumentation
+## Allgemeine Map-Build-Anleitung (macOS)
 ### Install macOS
 ```
 brew install npm
