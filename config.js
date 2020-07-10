@@ -43,9 +43,10 @@ module.exports = function () {
 //    ],
     // Array of data provider are supported
     'dataPath': [
-    "https://gg.indie-freifunk.net/data/"
-//  "https://map.freifunk-kitzingen.de/data/"
-//  '/data/',
+    '/data/',
+//  "https://gg.indie-freifunk.net/data/",
+//  "https://map.freifunk-kitzingen.de/data/",
+//  "http://falterturm.freifunk-vec.de/",
     ],
     'siteName': 'Freifunk Groß-Gerau',
     "maxAge": 21,
