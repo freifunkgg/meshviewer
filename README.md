@@ -1,6 +1,6 @@
 # Funktion dieses Projektes
 Groß-Gerauer Freifunkknoten werden eigentlich auf der FFKT-Map gelistet.
-Dieser Meshviewer-Fork nutzt die Kitzinger [`meshviewer.json`](https://map.freifunk-kitzingen.de/data/meshviewer.json) und selektiert anhand der enthaltenen Domaininformationen die Groß-Gerauer Knoten. Nur diese werden dann angezeigt.
+Dieser Meshviewer-Fork nutzt die Kitzinger [`meshviewer.json`](https://falterturm.freifunk-vec.de/meshviewer.json) und selektiert anhand der enthaltenen Domaininformationen die Groß-Gerauer Knoten. Nur diese werden dann angezeigt.
 
 ---
 
@@ -19,7 +19,7 @@ docker run --name meshviewer-server-gg \
          -p 8080:80 \
          --env MeshviewerRepo="https://github.com/freifunkgg/meshviewer" \
          --env LoopHookCMD="curl --create-dirs --insecure\
-                            -o /var/www/html/data/meshviewer.json https://map.freifunk-kitzingen.de/data/meshviewer.json" \
+                            -o /var/www/html/data/meshviewer.json https://falterturm.freifunk-vec.de/meshviewer.json" \
          ffmd/meshviewer-server:latest
 ```
 Danach kann eine eigene Groß-Gerauer Map auf dem eigenen Server (oder sogar PC) über http://Servername:8080 aufgerufen (http://localhost:8080) werden.
