@@ -134,7 +134,7 @@ module.exports = function () {
       },
       {
         'title': 'Firmware',
-        'href': 'https://gg.indie-freifunk.net/firmware-wizard/',
+        'href': 'https://fw.freifunk-gg.de/selector/',
         'target': '_blank'
       },
     ]
