@@ -32,6 +32,8 @@ https://github.com/FreifunkMD/meshviewer-server-docker
 ```
 brew install npm
 brew install yarn
+git clone https://github.com/freifunkgg/meshviewer.git meshviewer-gg
+cd meshviewer-gg
 yarn
 ```
 ### Bauen
@@ -39,8 +41,12 @@ yarn
 gulp
 ```
 
+### Ergebnis
+Die Dateien der zu hostenden Map finden sich in dem Ordner ```./build```
+
 ### Lokal testen
 ```
+brew install tiny-server
 tiny-server build
 ```
 
